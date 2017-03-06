@@ -1,4 +1,12 @@
+#' Example leaflet widget
+#'
+#' Hello world of leaflet htmlwidget wrapped in OpenCPU. Based on example:
+#' \url{http://rstudio.github.io/leaflet/}.
+#'
 #' @export
+#' @param title label for the marker
+#' @param lat lattitude coordinate
+#' @param lng longintude coordinate
 read_file <- function(filename){
 
 
