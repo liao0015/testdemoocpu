@@ -1,12 +1,10 @@
-#' Example leaflet widget
+#' LCA analysis
 #'
-#' Hello world of leaflet htmlwidget wrapped in OpenCPU. Based on example:
-#' \url{http://rstudio.github.io/leaflet/}.
+#' read a lca csv file and extract information
 #'
 #' @export
-#' @param title label for the marker
-#' @param lat lattitude coordinate
-#' @param lng longintude coordinate
+#' @param filename file name
+
 read_file <- function(filename){
 
 

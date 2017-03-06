@@ -2,18 +2,13 @@
 % Please edit documentation in R/read_file.R
 \name{read_file}
 \alias{read_file}
-\title{Example leaflet widget}
+\title{LCA analysis}
 \usage{
 read_file(filename)
 }
 \arguments{
-\item{title}{label for the marker}
-
-\item{lat}{lattitude coordinate}
-
-\item{lng}{longintude coordinate}
+\item{filename}{file name}
 }
 \description{
-Hello world of leaflet htmlwidget wrapped in OpenCPU. Based on example:
-\url{http://rstudio.github.io/leaflet/}.
+read a lca csv file and extract information
 }
