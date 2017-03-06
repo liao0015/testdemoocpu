@@ -24,18 +24,18 @@ $(document).ready(function(){
 	$("#file-btn").click(function(){
 		ocpu.seturl("http://192.168.88.128/ocpu/library/utils/R")
 		var myfile = $("#input-file")[0].files[0];
-		var myheader = true;
+		var filename = myfile.name;
+		//var myheader = true;
 		var req = ocpu.call(
-			"read.csv",
+			"read_file",
 			{
-				"file": myfile,
-				"header": myheader 
+				"filename": filename,
 			},
 			function(session){
-				console.log(session);
-				session.getConsole(function(file){
-					console.log(file);
-				});
+				//console.log(session);
+				// session.getConsole(function(file){
+				// 	console.log(file);
+				// });
 				session.getObject(function(path){
 					console.log(path);
 				});
